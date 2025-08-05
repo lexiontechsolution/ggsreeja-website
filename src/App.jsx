@@ -54,7 +54,7 @@ const AcademicProfileAlt = () => {
           <div className="absolute -inset-2 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl opacity-75 group-hover:opacity-100 transition duration-500 blur-md"></div>
           <div className="relative overflow-hidden rounded-2xl shadow-2xl border-4 border-white">
             <img 
-              src="../src/assets/image.png" 
+              src="../assets/image.png" 
               alt="Professor teaching computer science"
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
             />
