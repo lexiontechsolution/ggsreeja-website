@@ -387,7 +387,7 @@ const AcademicProfileAlt = () => {
                   <div>
                     <div className="flex justify-between mb-1">
                       <span className="font-medium text-sm md:text-base">C++</span>
-                      <span className="text-xs md:text-sm text-gray-500">85%</span>
+                      <span className="text-xs md:text-sm text-gray-500">90%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-1.5 md:h-2">
                       <div className="bg-gradient-to-r from-green-400 to-teal-500 h-1.5 md:h-2 rounded-full" style={{width: '85%'}}></div>
