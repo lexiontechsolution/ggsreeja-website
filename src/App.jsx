@@ -61,7 +61,7 @@ const AcademicProfileAlt = () => {
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
               <h3 className="text-xl font-bold text-white">G.G.Sreeja</h3>
-              <p className="text-indigo-200">Associate Professor</p>
+              <p className="text-indigo-200">Assistant Professor</p>
             </div>
           </div>
         </div>
