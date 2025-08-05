@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.underline-gradient {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-gradient::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -6px;
+  left: 0;
+  background: linear-gradient(90deg, #3B82F6, #EC4899);
+  border-radius: 2px;
+}
+
+/* Smooth dark mode transition */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
