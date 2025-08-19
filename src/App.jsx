@@ -447,8 +447,8 @@ const AcademicProfileAlt = () => {
     </div>
   </div>
 </section>
-      {/* Achievements Section */}
-      <section id="achievements" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+{/* Achievements Section */}
+<section id="achievements" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-3xl font-bold text-gray-900 mb-2">Professional Journey</h2>
@@ -513,10 +513,32 @@ const AcademicProfileAlt = () => {
             </div>
           </div>
         </div>
+
+        {/* Spacer */}
+        <div className="hidden md:block h-16"></div>
+
+        {/* Item 4 (New Achievement) */}
+        <div className="md:flex justify-between items-center w-full flex-row-reverse">
+          <div className="md:w-5/12 md:pl-8 text-left">
+            <h3 className="text-xl font-bold text-gray-900">Guest Lecture</h3>
+            <p className="text-gray-600 mt-1">Perfect Consensus: From Problem to Protocols</p>
+          </div>
+          <div className="hidden md:block w-2/12 flex justify-center">
+            <div className="h-5 w-5 rounded-full bg-green-500 ring-4 ring-green-100"></div>
+          </div>
+          <div className="md:w-5/12 md:pr-8 mt-4 md:mt-0">
+            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
+              <p className="text-gray-700">
+                Delivered an inspiring session at Jansons Institute of Technology, organized by Iterators Club & Department of CSE (08 Aug 2025).
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
       {/* Contact Section */}
      <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-indigo-50">
   <div className="max-w-3xl mx-auto">
